@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [KEYPAD] = LAYOUT(
-      QK_RBT,   QK_BOOT, KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_MUTE,  KC_VOLD,  KC_VOLU,  KC_TRNS,  KC_NO,
+      QK_RBT,   QK_BOOT, KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NUM, KC_MUTE,  KC_VOLD,  KC_VOLU,  KC_TRNS,  KC_NO,
       KC_NO,    KC_NO,   KC_NO,  KC_NO,  KC_NO,  KC_NO,                                                    KC_NO,  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
       KC_NO,    KC_NO,   KC_NO,  KC_NO,  KC_NO,  KC_NO,                                                    KC_NO,  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
       KC_NO,    KC_NO,   KC_NO,  KC_NO,  KC_NO,  KC_NO,                                                    KC_NO,  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
