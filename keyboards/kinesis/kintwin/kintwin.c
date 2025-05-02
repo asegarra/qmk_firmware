@@ -12,18 +12,20 @@ void keyboard_pre_init_user(void) {
   gpio_write_pin_low(LED_CAPS_LOCK_PIN);
 
   wait_ms(led_delay_ms);
+  
   gpio_set_pin_output(LED_NUM_LOCK_PIN);   
   gpio_write_pin_low(LED_NUM_LOCK_PIN);
+  
   wait_ms(led_delay_ms);
 
   gpio_set_pin_output(LED_SCROLL_LOCK_PIN);   
   gpio_write_pin_low(LED_SCROLL_LOCK_PIN);
+
   wait_ms(led_delay_ms);
 
   gpio_set_pin_output(LED_COMPOSE_PIN);   
   gpio_write_pin_low(LED_COMPOSE_PIN);
-  wait_ms(led_delay_ms);
-  gpio_write_pin_high(LED_COMPOSE_PIN);
+
 }
 
 bool led_update_user(led_t led_state) {
