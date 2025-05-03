@@ -104,9 +104,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 layer_state_t layer_state_set_user(layer_state_t state) {
   if (IS_LAYER_ON_STATE(state, KEYPAD)) {
-    gpio_write_pin_low(LED_COMPOSE_PIN);
+    gpio_write_pin_low(LED_LAYER_PIN);
   } else {
-    gpio_write_pin_high(LED_COMPOSE_PIN);
+    gpio_write_pin_high(LED_LAYER_PIN);
   }
 
   return state;
